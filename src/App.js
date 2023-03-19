@@ -23,7 +23,7 @@ function App() {
         };
 
   return (
-    <div className="bg-[#3B4664] h-full flex justify-center" style={styles}>
+    <div className="bg-[#3B4664] h-screen md:flex md:justify-center" style={styles}>
       <div className="">
         <Navbar toggle={toggle} theme={theme} />
         <Calculator theme={theme} />

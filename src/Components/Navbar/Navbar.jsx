@@ -15,7 +15,7 @@ export const Navbar = ({ toggle, theme }) => {
         };
 
   return (
-    <div className="flex  justify-between pt-[2rem] px-[2rem] md:px-[35rem]">
+    <div className="flex  justify-between pt-[2rem] px-[2rem] md:px-[22rem]">
       <div className=" text-[#fff] pt-6">
         <h1 className="text-4xl  font-bold" style={styles}>
           calc
@@ -23,7 +23,7 @@ export const Navbar = ({ toggle, theme }) => {
       </div>
       <div className="flex items-center space-x-5 text-[#fff]">
         <div className="mt-6">
-          <h1 className="text-lg font-mono" style={styles}>
+          <h1 className="text-lg font-Poppins" style={styles}>
             THEME
           </h1>
         </div>

@@ -150,9 +150,9 @@ export const Calculator = ({ theme }) => {
   }
 
   return (
-    <div className="py-[2rem]  md:px-[33rem]">
+    <div className="pt-[2rem] mx-5 space-y-7  md:px-[20rem]">
       <div
-        className="bg-[#191F32] h-[6rem] mx-[2rem] rounded-xl "
+        className="bg-[#191F32] h-[6rem] mx-[rem] rounded-xl "
         style={styles}
       >
         <div className="text-end  pt-[2rem] pr-[1rem]">
@@ -165,10 +165,10 @@ export const Calculator = ({ theme }) => {
         </div>
       </div>
       <div
-        className=" my-[2rem]   mx-[2rem] rounded-md"
+        className=" m-[2rem]  rounded-md"
         style={backgroundStyle}
       >
-        <div className="grid grid-cols-4 gap-4   p-[1rem] ">
+        <div className="grid grid-cols-4 gap-4   p-[1rem] md:w-[30rem]">
           {keys.map((key) => (
             <button
               onClick={(e) => {
